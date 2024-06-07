@@ -16,9 +16,18 @@
 }
 
 .color-option {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+.color-option.selected {
+  border: 2px solid black;
+}
+.color-option:focus {
+  outline: 2px solid #ccc;
 }
 
 .color-picker-selection-area {
@@ -37,7 +46,6 @@
 @media (max-width: 480px) {
   .color-picker {
     display: inline-block;
-    width: 100%;
   }
 
   .color-picker-grid {
@@ -50,10 +58,13 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
   }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 350px) {
   .color-option {
     width: 25px;
     height: 25px;

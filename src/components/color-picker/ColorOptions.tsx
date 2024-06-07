@@ -1,9 +1,9 @@
-interface Color {
+export interface Color {
   name: string
   hex: string
 }
 
-interface ColorGroup {
+export interface ColorGroup {
   name: string
   colors: Color[]
 }
