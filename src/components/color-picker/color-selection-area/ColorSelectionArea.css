@@ -1,0 +1,15 @@
+.color-selection-area {
+  padding-top: 10px;
+  align-items: center;
+}
+
+.selection-box {
+  border: 1px solid #c8ccca;
+  padding: 5px;
+  text-align: center;
+  width: 90%;
+}
+
+.copy-alert {
+  margin-top: 20px;
+}
